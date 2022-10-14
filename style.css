@@ -142,7 +142,10 @@ img {
         flex-direction: column;
     }
 
-    .lessons .col {
+    .lessons .col,
+    .why-us .col-right,
+    .why-us .col-left,
+    .steps .col {
         width: 100%;
     }
 
@@ -150,15 +153,16 @@ img {
         margin-bottom: 4rem;
     }
 
-    .steps .col {
-        width: 100%;
+    .why-us {
+        background-color: rgba(34,34,34,255);
+        margin-bottom: 0;
+    }
+    
+    .steps {
+        margin-bottom: 0;
     }
 
-    .why-us .col-left {
-        width: 100%;
-    }
-
-    .why-us .col-right {
-        width: 100%;
+    .container {
+        padding-top: 20px
     }
 }
